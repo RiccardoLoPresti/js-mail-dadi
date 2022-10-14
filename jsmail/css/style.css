@@ -1,9 +1,10 @@
 body{
-  background-color:darkolivegreen;
+  background-color:#131112;
 }
 
 h1{
   font-size: 4rem;
+  color: #F7F7FF;
 }
 
 output{
@@ -21,6 +22,7 @@ output{
 
 .rl-container{
   width: 90%;
-  background-color: bisque;
+  background-color: #F7F7FF;
   border-radius: 25px;
+  box-shadow: 0 0 10px #C49991;
 }
