@@ -4,9 +4,42 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.2.2/css/bootstrap.min.css' integrity='sha512-CpIKUSyh9QX2+zSdfGP+eWLx23C8Dj9/XmHjZY2uDtfkdLGo0uY12jgcnkX9vXOgYajEKb/jiw67EYm+kBf+6g==' crossorigin='anonymous'/>
+  <link rel="stylesheet" href="css/style.css">
   <title>Dadi</title>
+ 
 </head>
 <body>
+
+  <header>
+    <h1 class="text-center my-3 fw-bolder">DiceGame</h1>
+  </header>
+
+  <div class="container rl-container mt-5 text-center">
+    <div class="row h-100 pt-3">
+
+      <h2>Lancia il dado</h2>
+
+      <div class="col py-3">
+        
+        <div class="d-flex justify-content-center">
+          
+          <div class="px-4">
+            <h6>IL TUO NUMERO</h6>
+            <span id="nuser"></span>
+          </div>
+          <div class="px-4">
+            <h6>NUMERO PC</h6>
+            <span id="npc"></span>
+          </div>
+          
+        </div>
+
+        <h3 id="winner" class="my-4"></h3>
+        <button type="button" id="play" class="btn btn-outline-dark mb-3">PLAY</button>
+      </div>
+    </div>
+  </div>
   
   <script src="js/script.js"></script>
 </body>
