@@ -2,9 +2,12 @@ body{
   background-color:#131112;
 }
 
-h1{
-  font-size: 4rem;
+h1,header{
   color: #F7F7FF;
+}
+
+h1{
+  font-size: 3.5rem;
 }
 
 output{
@@ -17,12 +20,16 @@ output{
 }
 .rl-btn#submit{
   width: 100px;
-  margin-left: 242px;
+  margin-left: 12px;
 }
 
 .rl-container{
-  width: 90%;
+  width: 100%;
   background-color: #F7F7FF;
   border-radius: 25px;
   box-shadow: 0 0 10px #C49991;
+}
+
+.rl-header{
+  padding: 0;
 }

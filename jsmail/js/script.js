@@ -5,7 +5,7 @@ const add = document.querySelector('#add');
 const output = document.querySelector('output')
 let isUsermail = false;
 
-const list = ["tizio@gmail.com","caio@gmail.com","fraco@gmail.com","riccardo@gmail.com"]
+const list = ["franco@gmail.com","gennaro@gmail.com","laura@gmail.com","riccardo@gmail.com"]
 
 submit.addEventListener('click', function(){
   const userEmail = email.value
@@ -22,14 +22,8 @@ submit.addEventListener('click', function(){
     add.classList.add('d-none');
   }else{
     output.innerHTML = `
-    <i class="bi bi-exclamation-triangle"></i> La tua mail NON è presente nel sistema, non puoi accedere!
+    <i class="bi bi-exclamation-triangle"></i> La tua mail NON è presente nel sistema, NON puoi accedere!
     `;
-
-    add.classList.remove('d-none');
-
-    add.addEventListener('click', function(){
-      list.push(userEmail);
-    });
   }
 });
 
