@@ -8,12 +8,11 @@ play.addEventListener('click', function(){
   document.getElementById('npc').innerHTML = cpu;
 
   if(user > cpu){
-
   document.getElementById('winner').innerHTML = 'HAI VINTO!';
   }else if(user === cpu){
   document.getElementById('winner').innerHTML = 'PARI!';
   }else{
   document.getElementById('winner').innerHTML = 'HAI PERSO!';
   }
-  
+
 });

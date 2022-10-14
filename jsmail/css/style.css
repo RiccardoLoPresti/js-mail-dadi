@@ -6,6 +6,19 @@ h1{
   font-size: 4rem;
 }
 
+output{
+  margin-top: 5px;
+}
+
+.rl-btn{
+  width: 320px;
+  margin-left: 122px;
+}
+.rl-btn#submit{
+  width: 100px;
+  margin-left: 242px;
+}
+
 .rl-container{
   width: 90%;
   background-color: bisque;
