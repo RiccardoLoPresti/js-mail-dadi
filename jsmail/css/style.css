@@ -1,0 +1,13 @@
+body{
+  background-color:darkolivegreen;
+}
+
+h1{
+  font-size: 4rem;
+}
+
+.rl-container{
+  width: 90%;
+  background-color: bisque;
+  border-radius: 25px;
+}
