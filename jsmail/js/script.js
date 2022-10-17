@@ -1,14 +1,12 @@
 /*MAIL*/
 const email = document.querySelector('input');
 const submit = document.querySelector('#submit');
-const add = document.querySelector('#add');
 const output = document.querySelector('output')
 let isUsermail = false;
 
 const list = ["franco@gmail.com","gennaro@gmail.com","laura@gmail.com","riccardo@gmail.com"]
 
 submit.addEventListener('click', function(){
-  
   const userEmail = email.value
   for(let i = 0; i < list.length; i++){
     if(list[i] === userEmail){

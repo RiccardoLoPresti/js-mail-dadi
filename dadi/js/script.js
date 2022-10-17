@@ -1,7 +1,5 @@
 /*DICE*/
-
 play.addEventListener('click', function(){
-  
   const user = Math.floor(Math.random() * 7);
   const cpu  = Math.floor(Math.random() * 7);
   document.getElementById('nuser').innerHTML = user;
@@ -14,5 +12,4 @@ play.addEventListener('click', function(){
   }else{
   document.getElementById('winner').innerHTML = 'HAI PERSO!';
   }
-
 });
